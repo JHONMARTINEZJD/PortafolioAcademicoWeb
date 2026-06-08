@@ -1,0 +1,328 @@
+{
+  "fichas": [
+    {
+      "id": "ficha-3370571",
+      "configuracion": {
+        "institucion": "SENA - Servicio Nacional de Aprendizaje",
+        "programa": "Tecnologia en Gestion Administrativa",
+        "ficha": "3370571",
+        "centro_formacion": "Centro de Gestion Administrativa",
+        "jornada": "Diurna",
+        "instructor_lider": "Ing. Carlos Alberto Ramirez"
+      },
+      "estudiantes": [
+        {
+          "id": "est-001",
+          "nombre": "Juan Carlos Martinez",
+          "correo": "jcmartinez@misena.edu.co",
+          "documento": "1012345678",
+          "telefono": "3101234567",
+          "rol": "admin"
+        },
+        {
+          "id": "est-003",
+          "nombre": "Carlos Ramirez Instructor",
+          "correo": "cramirez@misena.edu.co",
+          "documento": "1122334455",
+          "telefono": "3155555555",
+          "rol": "instructor",
+          "usuario": "c.ramirez",
+          "clave": "instructor123"
+        },
+        {
+          "id": "est-002",
+          "nombre": "Maria Fernanda Lopez",
+          "correo": "mflopez@misena.edu.co",
+          "documento": "1098765432",
+          "telefono": "3209876543",
+          "rol": "aprendiz",
+          "usuario": "m.lopez",
+          "clave": "aprendiz123"
+        }
+      ],
+      "competencias": [
+        {
+          "id": "comp-01",
+          "codigo": "210601003",
+          "nombre": "Organizar la documentacion teniendo en cuenta las normas legales y de la organizacion",
+          "instructor_id": "est-003",
+          "resultados_aprendizaje": [
+            {
+              "id": "ra-001",
+              "codigo": "RA1",
+              "descripcion": "Organizar documentos de archivo aplicando la legislacion vigente"
+            },
+            {
+              "id": "ra-002",
+              "codigo": "RA2",
+              "descripcion": "Aplicar los principios archivisticos y las normas de gestion documental"
+            }
+          ]
+        },
+        {
+          "id": "comp-02",
+          "codigo": "210601010",
+          "nombre": "Facilitar el servicio a los clientes internos y externos de acuerdo con las politicas de la organizacion",
+          "instructor_id": "est-003",
+          "resultados_aprendizaje": [
+            {
+              "id": "ra-003",
+              "codigo": "RA3",
+              "descripcion": "Atender clientes de acuerdo con procedimientos de servicio y normativa"
+            },
+            {
+              "id": "ra-004",
+              "codigo": "RA4",
+              "descripcion": "Utilizar medios y tecnologia para la atencion y servicio al cliente"
+            }
+          ]
+        },
+        {
+          "id": "comp-03",
+          "codigo": "210301019",
+          "nombre": "Contabilizar operaciones de acuerdo con las normas vigentes y las politicas organizacionales",
+          "instructor_id": "est-003",
+          "resultados_aprendizaje": [
+            {
+              "id": "ra-005",
+              "codigo": "RA5",
+              "descripcion": "Contabilizar operaciones de acuerdo con las normas vigentes"
+            },
+            {
+              "id": "ra-006",
+              "codigo": "RA6",
+              "descripcion": "Interpretar los estados financieros segun normas contables"
+            }
+          ]
+        },
+        {
+          "id": "comp-04",
+          "codigo": "210201501",
+          "nombre": "Coordinar las actividades del talento humano asignado, teniendo en cuenta las funciones de la unidad administrativa",
+          "instructor_id": "est-003",
+          "resultados_aprendizaje": [
+            {
+              "id": "ra-007",
+              "codigo": "RA7",
+              "descripcion": "Facilitar el servicio al cliente interno y externo de la organizacion"
+            }
+          ]
+        },
+        {
+          "id": "comp-05",
+          "codigo": "260101042",
+          "nombre": "Proponer alternativas de solucion que contribuyan al logro de los objetivos de acuerdo con el nivel de importancia",
+          "instructor_id": "est-003",
+          "resultados_aprendizaje": [
+            {
+              "id": "ra-008",
+              "codigo": "RA8",
+              "descripcion": "Proponer alternativas de solucion empresarial mediante proyectos productivos"
+            }
+          ]
+        }
+      ],
+      "categorias": [
+        {
+          "id": "cat-01",
+          "nombre": "Gestion Documental",
+          "descripcion": "Evidencias relacionadas con la organizacion, clasificacion y manejo de documentos empresariales.",
+          "icono": "file-text",
+          "competencia_id": "comp-01",
+          "evidencias": [
+            {
+              "id": "ev-001",
+              "titulo": "Tabla de Retencion Documental",
+              "descripcion": "Elaboracion de la TRD para una empresa ficticia del sector comercial.",
+              "tipo": "pdf",
+              "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              "fecha": "2025-03-15",
+              "autor": "Juan Carlos Martinez",
+              "resultado_aprendizaje": "RA1 - Organizar documentos de archivo",
+              "competencia_id": "comp-01"
+            },
+            {
+              "id": "ev-002",
+              "titulo": "Ciclo Vital del Documento",
+              "descripcion": "Presentacion sobre las etapas del ciclo vital de los documentos en una organizacion.",
+              "tipo": "presentacion",
+              "url": "https://docs.google.com/presentation/d/e/2PACX-1vTExample/embed",
+              "fecha": "2025-04-02",
+              "autor": "Maria Fernanda Lopez",
+              "resultado_aprendizaje": "RA1 - Organizar documentos de archivo",
+              "competencia_id": "comp-01"
+            },
+            {
+              "id": "ev-003",
+              "titulo": "Normatividad Archivistica",
+              "descripcion": "Video explicativo sobre la Ley 594 de 2000 y su aplicacion practica.",
+              "tipo": "video",
+              "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+              "fecha": "2025-04-10",
+              "autor": "Juan Carlos Martinez",
+              "resultado_aprendizaje": "RA2 - Aplicar principios archivisticos",
+              "competencia_id": "comp-01"
+            }
+          ]
+        },
+        {
+          "id": "cat-02",
+          "nombre": "Atencion al Cliente",
+          "descripcion": "Evidencias sobre protocolos, estrategias y buenas practicas en el servicio al cliente.",
+          "icono": "users",
+          "competencia_id": "comp-02",
+          "evidencias": [
+            {
+              "id": "ev-004",
+              "titulo": "Protocolo de Atencion Presencial",
+              "descripcion": "Documento con el protocolo completo de atencion al cliente en punto de servicio.",
+              "tipo": "pdf",
+              "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              "fecha": "2025-05-01",
+              "autor": "Maria Fernanda Lopez",
+              "resultado_aprendizaje": "RA3 - Atender clientes de acuerdo con procedimientos",
+              "competencia_id": "comp-02"
+            },
+            {
+              "id": "ev-005",
+              "titulo": "Simulacion de Atencion Telefonica",
+              "descripcion": "Video de simulacion donde se aplican tecnicas de atencion telefonica al cliente.",
+              "tipo": "video",
+              "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+              "fecha": "2025-05-10",
+              "autor": "Juan Carlos Martinez",
+              "resultado_aprendizaje": "RA3 - Atender clientes de acuerdo con procedimientos",
+              "competencia_id": "comp-02"
+            },
+            {
+              "id": "ev-006",
+              "titulo": "Encuesta de Satisfaccion",
+              "descripcion": "Imagen del formato de encuesta de satisfaccion disenado para el proyecto formativo.",
+              "tipo": "imagen",
+              "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800",
+              "fecha": "2025-05-15",
+              "autor": "Maria Fernanda Lopez",
+              "resultado_aprendizaje": "RA4 - Utilizar medios y tecnologia para atencion al cliente",
+              "competencia_id": "comp-02"
+            }
+          ]
+        },
+        {
+          "id": "cat-03",
+          "nombre": "Contabilidad Basica",
+          "descripcion": "Evidencias sobre conceptos contables, registros y estados financieros.",
+          "icono": "calculator",
+          "competencia_id": "comp-03",
+          "evidencias": [
+            {
+              "id": "ev-007",
+              "titulo": "Plan Unico de Cuentas",
+              "descripcion": "Ejercicio practico de clasificacion de cuentas usando el PUC colombiano.",
+              "tipo": "pdf",
+              "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              "fecha": "2025-06-01",
+              "autor": "Juan Carlos Martinez",
+              "resultado_aprendizaje": "RA5 - Contabilizar operaciones de acuerdo con normas",
+              "competencia_id": "comp-03"
+            },
+            {
+              "id": "ev-008",
+              "titulo": "Estados Financieros Basicos",
+              "descripcion": "Presentacion sobre los estados financieros basicos y su interpretacion.",
+              "tipo": "presentacion",
+              "url": "https://docs.google.com/presentation/d/e/2PACX-1vTExample/embed",
+              "fecha": "2025-06-15",
+              "autor": "Maria Fernanda Lopez",
+              "resultado_aprendizaje": "RA6 - Interpretar estados financieros",
+              "competencia_id": "comp-03"
+            }
+          ]
+        },
+        {
+          "id": "cat-04",
+          "nombre": "Talento Humano",
+          "descripcion": "Evidencias relacionadas con seleccion, vinculacion y bienestar del personal.",
+          "icono": "briefcase",
+          "competencia_id": "comp-04",
+          "evidencias": [
+            {
+              "id": "ev-009",
+              "titulo": "Proceso de Seleccion de Personal",
+              "descripcion": "Informe sobre las etapas del proceso de seleccion para una empresa simulada.",
+              "tipo": "pdf",
+              "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              "fecha": "2025-07-01",
+              "autor": "Juan Carlos Martinez",
+              "resultado_aprendizaje": "RA7 - Facilitar el servicio al cliente interno y externo",
+              "competencia_id": "comp-04"
+            },
+            {
+              "id": "ev-010",
+              "titulo": "Formato de Evaluacion de Desempeno",
+              "descripcion": "Imagen del formato disenado para evaluar el desempeno laboral.",
+              "tipo": "imagen",
+              "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800",
+              "fecha": "2025-07-10",
+              "autor": "Maria Fernanda Lopez",
+              "resultado_aprendizaje": "RA7 - Facilitar el servicio al cliente interno y externo",
+              "competencia_id": "comp-04"
+            },
+            {
+              "id": "ev-011",
+              "titulo": "Programa de Bienestar Laboral",
+              "descripcion": "Video presentando la propuesta de programa de bienestar para los empleados.",
+              "tipo": "video",
+              "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+              "fecha": "2025-07-20",
+              "autor": "Juan Carlos Martinez",
+              "resultado_aprendizaje": "RA7 - Facilitar el servicio al cliente interno y externo",
+              "competencia_id": "comp-04"
+            }
+          ]
+        },
+        {
+          "id": "cat-05",
+          "nombre": "Emprendimiento",
+          "descripcion": "Evidencias del proyecto productivo y plan de negocio.",
+          "icono": "rocket",
+          "competencia_id": "comp-05",
+          "evidencias": [
+            {
+              "id": "ev-012",
+              "titulo": "Canvas del Modelo de Negocio",
+              "descripcion": "Imagen del Business Model Canvas completado para el proyecto productivo.",
+              "tipo": "imagen",
+              "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+              "fecha": "2025-08-01",
+              "autor": "Maria Fernanda Lopez",
+              "resultado_aprendizaje": "RA8 - Proponer alternativas de solucion empresarial",
+              "competencia_id": "comp-05"
+            },
+            {
+              "id": "ev-013",
+              "titulo": "Estudio de Mercado",
+              "descripcion": "Documento PDF con el estudio de mercado completo del proyecto productivo.",
+              "tipo": "pdf",
+              "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              "fecha": "2025-08-15",
+              "autor": "Juan Carlos Martinez",
+              "resultado_aprendizaje": "RA8 - Proponer alternativas de solucion empresarial",
+              "competencia_id": "comp-05"
+            },
+            {
+              "id": "ev-014",
+              "titulo": "Pitch del Proyecto",
+              "descripcion": "Video de la presentacion del pitch ante evaluadores del SENA.",
+              "tipo": "video",
+              "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+              "fecha": "2025-08-25",
+              "autor": "Maria Fernanda Lopez",
+              "resultado_aprendizaje": "RA8 - Proponer alternativas de solucion empresarial",
+              "competencia_id": "comp-05"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
